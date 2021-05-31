@@ -1,0 +1,36 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 55px;
+    color: rgb(102, 0, 0);
+    transition: all 300ms;
+}
+h1:hover{
+    transform: scale(1.15);
+}
+#pelicula{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#pelicula img{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+
+#pelicula img:hover{
+    transform: scale(1.15);
+}
+
+#logo{
+    width: 15%;
+}
